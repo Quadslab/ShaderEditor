@@ -1,4 +1,4 @@
-#Tue Apr 21 12:57:24 CEST 2020
+#Tue Apr 21 20:12:30 CEST 2020
 base.0=C\:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -46,10 +46,12 @@ import javax.microedition.khronos.opengles.GL11ExtensionPack;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
 public class ShaderRenderer implements GLSurfaceView.Renderer {
+
 	public interface OnRendererListener {
 		void onInfoLog(String error);
 
@@ -165,6 +167,8 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 			Pattern.MULTILINE);
 	private static final Pattern PATTERN_VERSION = Pattern.compile(
 			"^#version 3[0-9]{2} es$", Pattern.MULTILINE);
+	private static final Pattern PATTERN_SHADER = Pattern.compile(
+			"([a-zA-Z0-9])+[ \\t]*\\{\\{([\\s\\S]*?)^}}" , Pattern.MULTILINE);
 	private static final String OES_EXTERNAL =
 			"#extension GL_OES_EGL_image_external : require\n";
 	private static final String VERTEX_SHADER =
@@ -192,6 +196,7 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 
 	private final TextureBinder textureBinder = new TextureBinder();
 	private final ArrayList<String> textureNames = new ArrayList<>();
+	private ArrayList<String> passName = new ArrayList<>();
 	private final ArrayList<TextureParameters> textureParameters =
 			new ArrayList<>();
 	private final BackBufferParameters backBufferTextureParams =
@@ -199,6 +204,7 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 	private final int[] fb = new int[]{0, 0};
 	private final int[] tx = new int[]{0, 0};
 	private final int[] textureLocs = new int[32];
+	private final int[] passLocs = new int[32];
 	private final int[] textureTargets = new int[32];
 	private final int[] textureIds = new int[32];
 	private final float[] surfaceResolution = new float[]{0, 0};
@@ -225,7 +231,7 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 	private ProximityListener proximityListener;
 	private RotationVectorListener rotationVectorListener;
 	private OnRendererListener onRendererListener;
-	private String fragmentShader;
+	private String[] fragmentShader = new String[32];
 	private int version = 2;
 	private int deviceRotation;
 	private int surfaceProgram = 0;
@@ -267,6 +273,7 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 	private int pointerCount;
 	private int frontTarget;
 	private int backTarget = 1;
+	private int numberOfPasses;
 	private int frameNum;
 	private long startTime;
 	private long lastRender;
@@ -308,7 +315,12 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 	private void setFragmentShader(String source) {
 		fTimeMax = parseFTime(source);
 		resetFps();
-		fragmentShader = indexTextureNames(source);
+		Matcher m = PATTERN_SHADER.matcher(source);
+		Matcher m0 = m;
+		for(numberOfPasses=1; m0.find() && numberOfPasses < textureIds.length;numberOfPasses++);
+		for(int i = numberOfPasses; i-->0;) {
+			fragmentShader[i] = indexTextureNames(m.group(2));
+		}
 	}
 
 	public void setQuality(float quality) {
@@ -343,7 +355,7 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 			deleteTargets();
 		}
 
-		if (fragmentShader != null && fragmentShader.length() > 0) {
+		if (fragmentShader != null && fragmentShader[0].length() > 0) {
 			resetFps();
 			createTextures();
 			loadPrograms();
@@ -385,159 +397,160 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 
 			return;
 		}
-
-		GLES20.glUseProgram(program);
-		GLES20.glVertexAttribPointer(positionLoc, 2, GLES20.GL_BYTE,
-				false, 0, vertexBuffer);
-
 		final long now = System.nanoTime();
 		float delta = (now - startTime) / NS_PER_SECOND;
+		for(int ip=numberOfPasses; ip-->0;) {
+			GLES20.glUseProgram(ip);
+			GLES20.glVertexAttribPointer(positionLoc, 2, GLES20.GL_BYTE,
+					false, 0, vertexBuffer);
 
-		if (timeLoc > -1) {
-			GLES20.glUniform1f(timeLoc, delta);
-		}
-		if (secondLoc > -1) {
-			GLES20.glUniform1i(secondLoc, (int) delta);
-		}
-		if (subSecondLoc > -1) {
-			GLES20.glUniform1f(subSecondLoc, delta - (int) delta);
-		}
-		if (frameNumLoc > -1) {
-			GLES20.glUniform1i(frameNumLoc, frameNum);
-		}
-		if (fTimeLoc > -1) {
-			GLES20.glUniform1f(fTimeLoc,
-					((delta % fTimeMax) / fTimeMax * 2f - 1f));
-		}
-		if (resolutionLoc > -1) {
-			GLES20.glUniform2fv(resolutionLoc, 1, resolution, 0);
-		}
-		if (touchLoc > -1) {
-			GLES20.glUniform2fv(touchLoc, 1, touch, 0);
-		}
-		if (mouseLoc > -1) {
-			GLES20.glUniform2fv(mouseLoc, 1, mouse, 0);
-		}
-		if (pointerCountLoc > -1) {
-			GLES20.glUniform1i(pointerCountLoc, pointerCount);
-		}
-		if (pointersLoc > -1) {
-			GLES20.glUniform3fv(pointersLoc, pointerCount, pointers, 0);
-		}
-		if (gravityLoc > -1 && gravityValues != null) {
-			GLES20.glUniform3fv(gravityLoc, 1, gravityValues, 0);
-		}
-		if (linearLoc > -1 && linearValues != null) {
-			GLES20.glUniform3fv(linearLoc, 1, linearValues, 0);
-		}
-		if (gyroscopeLoc > -1 && gyroscopeListener != null) {
-			GLES20.glUniform3fv(gyroscopeLoc, 1, gyroscopeListener.rotation, 0);
-		}
-		if (magneticLoc > -1 && magneticFieldListener != null) {
-			GLES20.glUniform3fv(magneticLoc, 1, magneticFieldListener.values, 0);
-		}
-		if ((rotationMatrixLoc > -1 || orientationLoc > -1 ||
-				inclinationMatrixLoc > -1 || inclinationLoc > -1) &&
-				gravityValues != null) {
-			setRotationMatrix();
-		}
-		if (lightLoc > -1 && lightListener != null) {
-			GLES20.glUniform1f(lightLoc, lightListener.getAmbient());
-		}
-		if (pressureLoc > -1 && pressureListener != null) {
-			GLES20.glUniform1f(pressureLoc, pressureListener.getPressure());
-		}
-		if (proximityLoc > -1 && proximityListener != null) {
-			GLES20.glUniform1f(proximityLoc, proximityListener.getCentimeters());
-		}
-		if (rotationVectorLoc > -1 && rotationVectorListener != null) {
-			GLES20.glUniform3fv(rotationVectorLoc, 1,
-					rotationVectorListener.values, 0);
-		}
-		if (offsetLoc > -1) {
-			GLES20.glUniform2fv(offsetLoc, 1, offset, 0);
-		}
-		if (batteryLoc > -1) {
-			if (now - lastBatteryUpdate > BATTERY_UPDATE_INTERVAL) {
-				// profiled getBatteryLevel() on slow/old devices
-				// and it can take up to 6ms, so better do that
-				// not for every frame but only once in a while
-				batteryLevel = getBatteryLevel();
-				lastBatteryUpdate = now;
+
+
+			if (timeLoc > -1) {
+				GLES20.glUniform1f(timeLoc, delta);
 			}
-			GLES20.glUniform1f(batteryLoc, batteryLevel);
-		}
-		if (dateTimeLoc > -1) {
-			if (now - lastDateUpdate > DATE_UPDATE_INTERVAL) {
-				Calendar calendar = Calendar.getInstance();
-				dateTime[0] = calendar.get(Calendar.YEAR);
-				dateTime[1] = calendar.get(Calendar.MONTH);
-				dateTime[2] = calendar.get(Calendar.DAY_OF_MONTH);
-				dateTime[3] = calendar.get(Calendar.HOUR_OF_DAY) * 3600f +
-						calendar.get(Calendar.MINUTE) * 60f +
-						calendar.get(Calendar.SECOND);
-
-				lastDateUpdate = now;
+			if (secondLoc > -1) {
+				GLES20.glUniform1i(secondLoc, (int) delta);
 			}
-			GLES20.glUniform4fv(dateTimeLoc, 1, dateTime, 0);
-		}
-		if (startRandomLoc > -1) {
-			GLES20.glUniform1f(startRandomLoc, startRandom);
-		}
-
-		if (fb[0] == 0) {
-			createTargets((int) resolution[0], (int) resolution[1]);
-		}
-
-		// first draw custom shader in framebuffer
-		GLES20.glViewport(0, 0, (int) resolution[0], (int) resolution[1]);
-
-		textureBinder.reset();
-
-		if (backBufferLoc > -1) {
-			textureBinder.bind(backBufferLoc, GLES20.GL_TEXTURE_2D,
-					tx[backTarget]);
-		}
-		if (cameraListener != null) {
-			if (cameraOrientationLoc > -1) {
-				GLES20.glUniformMatrix2fv(cameraOrientationLoc, 1, false,
-						cameraListener.getOrientationMatrix());
+			if (subSecondLoc > -1) {
+				GLES20.glUniform1f(subSecondLoc, delta - (int) delta);
 			}
-			if (cameraAddentLoc > -1) {
-				GLES20.glUniform2fv(cameraAddentLoc, 1,
-						cameraListener.addent, 0);
+			if (frameNumLoc > -1) {
+				GLES20.glUniform1i(frameNumLoc, frameNum);
 			}
-			cameraListener.update();
+			if (fTimeLoc > -1) {
+				GLES20.glUniform1f(fTimeLoc,
+						((delta % fTimeMax) / fTimeMax * 2f - 1f));
+			}
+			if (resolutionLoc > -1) {
+				GLES20.glUniform2fv(resolutionLoc, 1, resolution, 0);
+			}
+			if (touchLoc > -1) {
+				GLES20.glUniform2fv(touchLoc, 1, touch, 0);
+			}
+			if (mouseLoc > -1) {
+				GLES20.glUniform2fv(mouseLoc, 1, mouse, 0);
+			}
+			if (pointerCountLoc > -1) {
+				GLES20.glUniform1i(pointerCountLoc, pointerCount);
+			}
+			if (pointersLoc > -1) {
+				GLES20.glUniform3fv(pointersLoc, pointerCount, pointers, 0);
+			}
+			if (gravityLoc > -1 && gravityValues != null) {
+				GLES20.glUniform3fv(gravityLoc, 1, gravityValues, 0);
+			}
+			if (linearLoc > -1 && linearValues != null) {
+				GLES20.glUniform3fv(linearLoc, 1, linearValues, 0);
+			}
+			if (gyroscopeLoc > -1 && gyroscopeListener != null) {
+				GLES20.glUniform3fv(gyroscopeLoc, 1, gyroscopeListener.rotation, 0);
+			}
+			if (magneticLoc > -1 && magneticFieldListener != null) {
+				GLES20.glUniform3fv(magneticLoc, 1, magneticFieldListener.values, 0);
+			}
+			if ((rotationMatrixLoc > -1 || orientationLoc > -1 ||
+					inclinationMatrixLoc > -1 || inclinationLoc > -1) &&
+					gravityValues != null) {
+				setRotationMatrix();
+			}
+			if (lightLoc > -1 && lightListener != null) {
+				GLES20.glUniform1f(lightLoc, lightListener.getAmbient());
+			}
+			if (pressureLoc > -1 && pressureListener != null) {
+				GLES20.glUniform1f(pressureLoc, pressureListener.getPressure());
+			}
+			if (proximityLoc > -1 && proximityListener != null) {
+				GLES20.glUniform1f(proximityLoc, proximityListener.getCentimeters());
+			}
+			if (rotationVectorLoc > -1 && rotationVectorListener != null) {
+				GLES20.glUniform3fv(rotationVectorLoc, 1,
+						rotationVectorListener.values, 0);
+			}
+			if (offsetLoc > -1) {
+				GLES20.glUniform2fv(offsetLoc, 1, offset, 0);
+			}
+			if (batteryLoc > -1) {
+				if (now - lastBatteryUpdate > BATTERY_UPDATE_INTERVAL) {
+					// profiled getBatteryLevel() on slow/old devices
+					// and it can take up to 6ms, so better do that
+					// not for every frame but only once in a while
+					batteryLevel = getBatteryLevel();
+					lastBatteryUpdate = now;
+				}
+				GLES20.glUniform1f(batteryLoc, batteryLevel);
+			}
+			if (dateTimeLoc > -1) {
+				if (now - lastDateUpdate > DATE_UPDATE_INTERVAL) {
+					Calendar calendar = Calendar.getInstance();
+					dateTime[0] = calendar.get(Calendar.YEAR);
+					dateTime[1] = calendar.get(Calendar.MONTH);
+					dateTime[2] = calendar.get(Calendar.DAY_OF_MONTH);
+					dateTime[3] = calendar.get(Calendar.HOUR_OF_DAY) * 3600f +
+							calendar.get(Calendar.MINUTE) * 60f +
+							calendar.get(Calendar.SECOND);
+
+					lastDateUpdate = now;
+				}
+				GLES20.glUniform4fv(dateTimeLoc, 1, dateTime, 0);
+			}
+			if (startRandomLoc > -1) {
+				GLES20.glUniform1f(startRandomLoc, startRandom);
+			}
+
+			if (fb[0] == 0) {
+				createTargets((int) resolution[0], (int) resolution[1]);
+			}
+
+			// first draw custom shader in framebuffer
+			GLES20.glViewport(0, 0, (int) resolution[0], (int) resolution[1]);
+
+			textureBinder.reset();
+
+			if (backBufferLoc > -1) {
+				textureBinder.bind(backBufferLoc, GLES20.GL_TEXTURE_2D,
+						tx[backTarget]);
+			}
+			if (cameraListener != null) {
+				if (cameraOrientationLoc > -1) {
+					GLES20.glUniformMatrix2fv(cameraOrientationLoc, 1, false,
+							cameraListener.getOrientationMatrix());
+				}
+				if (cameraAddentLoc > -1) {
+					GLES20.glUniform2fv(cameraAddentLoc, 1,
+							cameraListener.addent, 0);
+				}
+				cameraListener.update();
+			}
+
+			for (int i = 0; i < numberOfTextures; ++i) {
+				textureBinder.bind(
+						textureLocs[i],
+						textureTargets[i],
+						textureIds[i]);
+			}
+
+			GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, fb[frontTarget]);
+			GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
+
+			// then draw framebuffer on screen
+			GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, 0);
+			GLES20.glViewport(0, 0,
+					(int) surfaceResolution[0],
+					(int) surfaceResolution[1]);
+			GLES20.glUseProgram(surfaceProgram);
+			GLES20.glVertexAttribPointer(surfacePositionLoc, 2, GLES20.GL_BYTE,
+					false, 0, vertexBuffer);
+
+			GLES20.glUniform2fv(surfaceResolutionLoc, 1, surfaceResolution, 0);
+
+			GLES20.glUniform1i(surfaceFrameLoc, 0);
+			GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
+			GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, tx[frontTarget]);
+
+			GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
+			GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
 		}
-
-		for (int i = 0; i < numberOfTextures; ++i) {
-			textureBinder.bind(
-					textureLocs[i],
-					textureTargets[i],
-					textureIds[i]);
-		}
-
-		GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, fb[frontTarget]);
-		GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
-
-		// then draw framebuffer on screen
-		GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, 0);
-		GLES20.glViewport(0, 0,
-				(int) surfaceResolution[0],
-				(int) surfaceResolution[1]);
-		GLES20.glUseProgram(surfaceProgram);
-		GLES20.glVertexAttribPointer(surfacePositionLoc, 2, GLES20.GL_BYTE,
-				false, 0, vertexBuffer);
-
-		GLES20.glUniform2fv(surfaceResolutionLoc, 1, surfaceResolution, 0);
-
-		GLES20.glUniform1i(surfaceFrameLoc, 0);
-		GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
-		GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, tx[frontTarget]);
-
-		GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT);
-		GLES20.glDrawArrays(GLES20.GL_TRIANGLE_STRIP, 0, 4);
-
 		// swap buffers so the next image will be rendered
 		// over the current backbuffer and the current image
 		// will be the backbuffer for the next image
@@ -661,19 +674,21 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 	}
 
 	private void loadPrograms() {
-		if (((surfaceProgram = Program.loadProgram(
-				VERTEX_SHADER,
-				FRAGMENT_SHADER)) == 0 ||
-				(program = Program.loadProgram(
-						getVertexShader(),
-						fragmentShader)) == 0) &&
-				onRendererListener != null) {
-			onRendererListener.onInfoLog(Program.getInfoLog());
+		for(int i =numberOfPasses; numberOfPasses-->0;) {
+			if (((surfaceProgram = Program.loadProgram(
+					VERTEX_SHADER,
+					FRAGMENT_SHADER)) == 0 ||
+					(program = Program.loadProgram(
+							getVertexShader(),
+							fragmentShader[i])) == 0) &&
+					onRendererListener != null) {
+				onRendererListener.onInfoLog(Program.getInfoLog());
+			}
 		}
 	}
 
 	private String getVertexShader() {
-		Matcher m = PATTERN_VERSION.matcher(fragmentShader);
+		Matcher m = PATTERN_VERSION.matcher(fragmentShader[0]);
 		if (version == 3 && m.find()) {
 			StringBuilder sb = new StringBuilder();
 			sb.append(m.group(0));
@@ -692,73 +707,78 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 				surfaceProgram, "resolution");
 		surfaceFrameLoc = GLES20.glGetUniformLocation(
 				surfaceProgram, "frame");
+		for(int i0 = numberOfPasses; i0-->0;) {
+			positionLoc = GLES20.glGetAttribLocation(
+					i0, UNIFORM_POSITION);
+			timeLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_TIME);
+			secondLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_SECOND);
+			subSecondLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_SUB_SECOND);
+			frameNumLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_FRAME_NUMBER);
+			fTimeLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_FTIME);
+			resolutionLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_RESOLUTION);
+			touchLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_TOUCH);
+			mouseLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_MOUSE);
+			pointerCountLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_POINTER_COUNT);
+			pointersLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_POINTERS);
+			gravityLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_GRAVITY);
+			gyroscopeLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_GYROSCOPE);
+			linearLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_LINEAR);
+			magneticLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_MAGNETIC);
+			rotationMatrixLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_ROTATION_MATRIX);
+			rotationVectorLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_ROTATION_VECTOR);
+			orientationLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_ORIENTATION);
+			inclinationMatrixLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_INCLINATION_MATRIX);
+			inclinationLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_INCLINATION);
+			lightLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_LIGHT);
+			pressureLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_PRESSURE);
+			proximityLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_PROXIMITY);
+			offsetLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_OFFSET);
+			batteryLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_BATTERY);
+			dateTimeLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_DATE);
+			startRandomLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_START_RANDOM);
+			backBufferLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_BACKBUFFER);
+			cameraOrientationLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_CAMERA_ORIENTATION);
+			cameraAddentLoc = GLES20.glGetUniformLocation(
+					i0, UNIFORM_CAMERA_ADDENT);
 
-		positionLoc = GLES20.glGetAttribLocation(
-				program, UNIFORM_POSITION);
-		timeLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_TIME);
-		secondLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_SECOND);
-		subSecondLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_SUB_SECOND);
-		frameNumLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_FRAME_NUMBER);
-		fTimeLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_FTIME);
-		resolutionLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_RESOLUTION);
-		touchLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_TOUCH);
-		mouseLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_MOUSE);
-		pointerCountLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_POINTER_COUNT);
-		pointersLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_POINTERS);
-		gravityLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_GRAVITY);
-		gyroscopeLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_GYROSCOPE);
-		linearLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_LINEAR);
-		magneticLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_MAGNETIC);
-		rotationMatrixLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_ROTATION_MATRIX);
-		rotationVectorLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_ROTATION_VECTOR);
-		orientationLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_ORIENTATION);
-		inclinationMatrixLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_INCLINATION_MATRIX);
-		inclinationLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_INCLINATION);
-		lightLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_LIGHT);
-		pressureLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_PRESSURE);
-		proximityLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_PROXIMITY);
-		offsetLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_OFFSET);
-		batteryLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_BATTERY);
-		dateTimeLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_DATE);
-		startRandomLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_START_RANDOM);
-		backBufferLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_BACKBUFFER);
-		cameraOrientationLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_CAMERA_ORIENTATION);
-		cameraAddentLoc = GLES20.glGetUniformLocation(
-				program, UNIFORM_CAMERA_ADDENT);
-
-		for (int i = numberOfTextures; i-- > 0; ) {
-			textureLocs[i] = GLES20.glGetUniformLocation(
-					program,
-					textureNames.get(i));
+			for (int i = numberOfTextures; i-- > 0; ) {
+				textureLocs[i] = GLES20.glGetUniformLocation(
+						i0,
+						textureNames.get(i));
+			}
 		}
+		for(int i = numberOfPasses; i-- > 0;) {
+			passLocs[i] = GLES20.glGetUniformLocation(program, passName.get(i));
+		}
+
 	}
 
 	private void enableAttribArrays() {
@@ -1012,7 +1032,9 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 
 		createTarget(frontTarget, width, height, backBufferTextureParams);
 		createTarget(backTarget, width, height, backBufferTextureParams);
-
+		for(int i = numberOfPasses; i-->0;) {
+			createTarget(i+2,width,height,backBufferTextureParams);
+		}
 		// unbind textures that were bound in createTarget()
 		GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, 0);
 		GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, 0);
@@ -1260,7 +1282,6 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 
 		textureNames.clear();
 		textureParameters.clear();
-		numberOfTextures = 0;
 		backBufferTextureParams.reset();
 
 		final int maxTextures = textureIds.length;
@@ -1277,6 +1298,9 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 			if (UNIFORM_BACKBUFFER.equals(name)) {
 				backBufferTextureParams.parse(params);
 				continue;
+			}
+			if(passName.contains(name)) {
+				backBufferTextureParams.parse(params);
 			}
 
 			int target;
@@ -1305,7 +1329,6 @@ public class ShaderRenderer implements GLSurfaceView.Renderer {
 				default:
 					continue;
 			}
-
 			textureTargets[numberOfTextures++] = target;
 			textureNames.add(name);
 			textureParameters.add(new TextureParameters(params));

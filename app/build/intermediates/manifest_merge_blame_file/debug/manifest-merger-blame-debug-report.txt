@@ -62,7 +62,7 @@
 38        android:allowBackup="true"
 38-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:27:3-29
 39        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-39-->[com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-2\files-2.1\f13e80600485f087c51c6872f934df1c\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+39-->[com.android.support:support-compat:28.0.0] C:\Users\anton\.gradle\caches\transforms-2\files-2.1\f1491a81a65d4033a56d6549564e765e\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 40        android:debuggable="true"
 41        android:fullBackupContent="@xml/backup_rules"
 41-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:28:3-48
@@ -74,241 +74,242 @@
 44-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:30:3-36
 45        android:supportsRtl="true"
 45-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:29:3-29
-46        android:theme="@style/AppTheme" >
-46-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:33:3-34
-47        <receiver
-47-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:34:3-44:14
-48            android:name="de.markusfisch.android.shadereditor.receiver.BatteryLevelReceiver"
-48-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:35:4-49
-49            android:enabled="false"
-49-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:36:4-27
-50            android:exported="false"
-50-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:37:4-28
-51            android:label="LowBatteryMonitor" >
-51-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:38:4-37
-52            <intent-filter>
-52-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:39:4-43:20
-53                <action android:name="android.intent.action.BATTERY_LOW" />
-53-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:40:5-63
-53-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:40:13-61
-54                <action android:name="android.intent.action.BATTERY_OKAY" />
-54-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:41:5-64
-54-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:41:13-62
-55                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-55-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:42:5-74
-55-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:42:13-72
-56            </intent-filter>
-57        </receiver>
-58
-59        <service
-59-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:45:3-56:13
-60            android:name="de.markusfisch.android.shadereditor.service.ShaderWallpaperService"
-60-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:46:4-50
-61            android:description="@string/wallpaper_description"
-61-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:47:4-55
-62            android:label="@string/app_name"
-62-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:48:4-36
-63            android:permission="android.permission.BIND_WALLPAPER" >
-63-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:49:4-58
-64            <intent-filter>
-64-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:50:4-52:20
-65                <action android:name="android.service.wallpaper.WallpaperService" />
-65-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:51:5-72
-65-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:51:13-70
-66            </intent-filter>
-67
-68            <meta-data
-68-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:53:4-55:40
-69                android:name="android.service.wallpaper"
-69-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:54:5-45
-70                android:resource="@xml/wallpaper" />
-70-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:55:5-38
-71        </service>
-72
-73        <activity
-73-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:57:3-65:14
-74            android:name="de.markusfisch.android.shadereditor.activity.SplashActivity"
-74-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:58:4-43
-75            android:label="@string/app_name"
-75-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:59:4-36
-76            android:theme="@style/SplashTheme" >
-76-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:60:4-38
-77            <intent-filter>
-77-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:61:4-64:20
-78                <action android:name="android.intent.action.MAIN" />
-78-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:62:5-56
-78-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:62:13-54
-79
-80                <category android:name="android.intent.category.LAUNCHER" />
-80-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:63:5-64
-80-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:63:15-62
-81            </intent-filter>
-82        </activity>
-83        <activity
-83-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:66:3-113:14
-84            android:name="de.markusfisch.android.shadereditor.activity.MainActivity"
-84-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:67:4-41
-85            android:label="@string/app_name"
-85-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:68:4-36
-86            android:launchMode="singleTop" >
-86-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:69:4-34
-87            <intent-filter>
-87-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:70:4-89:20
-88                <action android:name="android.intent.action.VIEW" />
-88-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
-88-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
-89
-90                <category android:name="android.intent.category.DEFAULT" />
-90-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
-90-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
-91                <!--
-92                     ignore AppLinkUrlError because this filter
-93					doesn't work with `host="*"`
-94                -->
-95                <data
-95-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-96                    android:mimeType="text/plain"
-96-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-97                    android:pathPattern=".*\\.glsl"
-97-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
-98                    android:scheme="content" />
-98-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
-99                <data
-99-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-100                    android:mimeType="application/octet-stream"
-100-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-101                    android:pathPattern=".*\\.glsl"
-101-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
-102                    android:scheme="content" />
-102-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
-103                <data
-103-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-104                    android:mimeType="application/glsl"
-104-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-105                    android:scheme="content" />
-105-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
-106            </intent-filter>
-107            <intent-filter>
-107-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:90:4-98:20
-108                <action android:name="android.intent.action.VIEW" />
-108-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
-108-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
-109
-110                <category android:name="android.intent.category.DEFAULT" />
-110-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
-110-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
-111
-112                <data
-112-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-113                    android:host="*"
-113-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:97:6-22
-114                    android:mimeType="*/*"
-114-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-115                    android:pathPattern=".*\\.glsl"
-115-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
-116                    android:scheme="file" />
-116-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
-117            </intent-filter>
-118            <intent-filter>
-118-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:99:4-103:20
-119                <action android:name="android.intent.action.SEND" />
-119-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:5-56
-119-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:13-54
-120
-121                <category android:name="android.intent.category.DEFAULT" />
-121-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
-121-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
-122
-123                <data android:mimeType="text/plain" />
-123-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-123-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-124            </intent-filter>
-125            <intent-filter>
-125-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:104:4-112:20
-126                <action android:name="android.intent.action.VIEW" />
-126-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
-126-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
-127
-128                <category android:name="android.intent.category.DEFAULT" />
-128-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
-128-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
-129                <category android:name="android.intent.category.BROWSABLE" />
-129-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:107:5-65
-129-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:107:15-63
-130
-131                <data
-131-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-132                    android:host="www.markusfisch.de"
-132-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:97:6-22
-133                    android:pathPrefix="/ShaderEditor"
-133-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:110:6-40
-134                    android:scheme="http" />
-134-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
-135            </intent-filter>
-136        </activity>
-137        <activity
-137-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:114:3-118:47
-138            android:name="de.markusfisch.android.shadereditor.activity.PreviewActivity"
-138-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:115:4-44
-139            android:documentLaunchMode="intoExisting"
-139-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:118:4-45
-140            android:label="@string/preview"
-140-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:116:4-35
-141            android:launchMode="singleInstance" />
-141-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:117:4-39
-142        <activity
-142-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:119:3-122:29
-143            android:name="de.markusfisch.android.shadereditor.activity.PreferencesActivity"
-143-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:120:4-48
-144            android:exported="true"
-144-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:122:4-27
-145            android:label="@string/preferences" />
-145-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:121:4-39
-146        <activity
-146-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:123:3-131:14
-147            android:name="de.markusfisch.android.shadereditor.activity.AddUniformActivity"
-147-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:124:4-47
-148            android:label="@string/add_uniform" >
-148-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:125:4-39
-149            <intent-filter>
-149-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:126:4-130:20
-150                <action android:name="android.intent.action.SEND" />
-150-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:5-56
-150-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:13-54
-151
-152                <category android:name="android.intent.category.DEFAULT" />
-152-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
-152-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
-153
-154                <data android:mimeType="image/*" />
-154-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
-154-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
-155            </intent-filter>
-156        </activity>
-157        <activity
-157-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:132:3-134:41
-158            android:name="de.markusfisch.android.shadereditor.activity.LoadSampleActivity"
-158-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:133:4-47
-159            android:label="@string/load_sample" />
-159-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:134:4-39
-160        <activity
-160-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:135:3-137:42
-161            android:name="de.markusfisch.android.shadereditor.activity.TextureViewActivity"
-161-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:136:4-48
-162            android:label="@string/view_texture" />
-162-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:137:4-40
-163        <activity
-163-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:138:3-140:40
-164            android:name="de.markusfisch.android.shadereditor.activity.CropImageActivity"
-164-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:139:4-46
-165            android:label="@string/crop_image" />
-165-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:140:4-38
-166        <activity
-166-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:141:3-143:41
-167            android:name="de.markusfisch.android.shadereditor.activity.CubeMapActivity"
-167-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:142:4-44
-168            android:label="@string/add_uniform" />
-168-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:143:4-39
-169    </application>
-170
-171</manifest>
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme" >
+47-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:33:3-34
+48        <receiver
+48-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:34:3-44:14
+49            android:name="de.markusfisch.android.shadereditor.receiver.BatteryLevelReceiver"
+49-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:35:4-49
+50            android:enabled="false"
+50-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:36:4-27
+51            android:exported="false"
+51-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:37:4-28
+52            android:label="LowBatteryMonitor" >
+52-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:38:4-37
+53            <intent-filter>
+53-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:39:4-43:20
+54                <action android:name="android.intent.action.BATTERY_LOW" />
+54-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:40:5-63
+54-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:40:13-61
+55                <action android:name="android.intent.action.BATTERY_OKAY" />
+55-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:41:5-64
+55-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:41:13-62
+56                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+56-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:42:5-74
+56-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:42:13-72
+57            </intent-filter>
+58        </receiver>
+59
+60        <service
+60-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:45:3-56:13
+61            android:name="de.markusfisch.android.shadereditor.service.ShaderWallpaperService"
+61-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:46:4-50
+62            android:description="@string/wallpaper_description"
+62-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:47:4-55
+63            android:label="@string/app_name"
+63-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:48:4-36
+64            android:permission="android.permission.BIND_WALLPAPER" >
+64-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:49:4-58
+65            <intent-filter>
+65-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:50:4-52:20
+66                <action android:name="android.service.wallpaper.WallpaperService" />
+66-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:51:5-72
+66-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:51:13-70
+67            </intent-filter>
+68
+69            <meta-data
+69-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:53:4-55:40
+70                android:name="android.service.wallpaper"
+70-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:54:5-45
+71                android:resource="@xml/wallpaper" />
+71-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:55:5-38
+72        </service>
+73
+74        <activity
+74-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:57:3-65:14
+75            android:name="de.markusfisch.android.shadereditor.activity.SplashActivity"
+75-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:58:4-43
+76            android:label="@string/app_name"
+76-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:59:4-36
+77            android:theme="@style/SplashTheme" >
+77-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:60:4-38
+78            <intent-filter>
+78-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:61:4-64:20
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:62:5-56
+79-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:62:13-54
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:63:5-64
+81-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:63:15-62
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:66:3-113:14
+85            android:name="de.markusfisch.android.shadereditor.activity.MainActivity"
+85-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:67:4-41
+86            android:label="@string/app_name"
+86-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:68:4-36
+87            android:launchMode="singleTop" >
+87-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:69:4-34
+88            <intent-filter>
+88-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:70:4-89:20
+89                <action android:name="android.intent.action.VIEW" />
+89-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
+89-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
+91-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
+92                <!--
+93                     ignore AppLinkUrlError because this filter
+94					doesn't work with `host="*"`
+95                -->
+96                <data
+96-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+97                    android:mimeType="text/plain"
+97-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+98                    android:pathPattern=".*\\.glsl"
+98-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
+99                    android:scheme="content" />
+99-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
+100                <data
+100-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+101                    android:mimeType="application/octet-stream"
+101-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+102                    android:pathPattern=".*\\.glsl"
+102-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
+103                    android:scheme="content" />
+103-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
+104                <data
+104-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+105                    android:mimeType="application/glsl"
+105-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+106                    android:scheme="content" />
+106-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
+107            </intent-filter>
+108            <intent-filter>
+108-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:90:4-98:20
+109                <action android:name="android.intent.action.VIEW" />
+109-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
+109-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
+111-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
+112
+113                <data
+113-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+114                    android:host="*"
+114-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:97:6-22
+115                    android:mimeType="*/*"
+115-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+116                    android:pathPattern=".*\\.glsl"
+116-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:79:6-37
+117                    android:scheme="file" />
+117-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
+118            </intent-filter>
+119            <intent-filter>
+119-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:99:4-103:20
+120                <action android:name="android.intent.action.SEND" />
+120-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:5-56
+120-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:13-54
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
+122-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
+123
+124                <data android:mimeType="text/plain" />
+124-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+124-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+125            </intent-filter>
+126            <intent-filter>
+126-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:104:4-112:20
+127                <action android:name="android.intent.action.VIEW" />
+127-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:5-56
+127-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:71:13-54
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
+129-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:107:5-65
+130-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:107:15-63
+131
+132                <data
+132-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+133                    android:host="www.markusfisch.de"
+133-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:97:6-22
+134                    android:pathPrefix="/ShaderEditor"
+134-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:110:6-40
+135                    android:scheme="http" />
+135-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:77:6-30
+136            </intent-filter>
+137        </activity>
+138        <activity
+138-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:114:3-118:47
+139            android:name="de.markusfisch.android.shadereditor.activity.PreviewActivity"
+139-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:115:4-44
+140            android:documentLaunchMode="intoExisting"
+140-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:118:4-45
+141            android:label="@string/preview"
+141-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:116:4-35
+142            android:launchMode="singleInstance" />
+142-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:117:4-39
+143        <activity
+143-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:119:3-122:29
+144            android:name="de.markusfisch.android.shadereditor.activity.PreferencesActivity"
+144-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:120:4-48
+145            android:exported="true"
+145-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:122:4-27
+146            android:label="@string/preferences" />
+146-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:121:4-39
+147        <activity
+147-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:123:3-131:14
+148            android:name="de.markusfisch.android.shadereditor.activity.AddUniformActivity"
+148-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:124:4-47
+149            android:label="@string/add_uniform" >
+149-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:125:4-39
+150            <intent-filter>
+150-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:126:4-130:20
+151                <action android:name="android.intent.action.SEND" />
+151-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:5-56
+151-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:100:13-54
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:5-63
+153-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:72:15-61
+154
+155                <data android:mimeType="image/*" />
+155-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:75:5-79:39
+155-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:78:6-35
+156            </intent-filter>
+157        </activity>
+158        <activity
+158-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:132:3-134:41
+159            android:name="de.markusfisch.android.shadereditor.activity.LoadSampleActivity"
+159-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:133:4-47
+160            android:label="@string/load_sample" />
+160-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:134:4-39
+161        <activity
+161-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:135:3-137:42
+162            android:name="de.markusfisch.android.shadereditor.activity.TextureViewActivity"
+162-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:136:4-48
+163            android:label="@string/view_texture" />
+163-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:137:4-40
+164        <activity
+164-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:138:3-140:40
+165            android:name="de.markusfisch.android.shadereditor.activity.CropImageActivity"
+165-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:139:4-46
+166            android:label="@string/crop_image" />
+166-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:140:4-38
+167        <activity
+167-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:141:3-143:41
+168            android:name="de.markusfisch.android.shadereditor.activity.CubeMapActivity"
+168-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:142:4-44
+169            android:label="@string/add_uniform" />
+169-->C:\Users\anton\StudioProjects\ShaderEditor\app\src\main\AndroidManifest.xml:143:4-39
+170    </application>
+171
+172</manifest>
