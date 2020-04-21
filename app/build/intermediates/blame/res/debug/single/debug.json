@@ -1,0 +1,914 @@
+[
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_main.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\toolbar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_swirl.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_swirl.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_save.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_cloudy_conway.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_cloudy_conway.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cube_map.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_cube_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_battery.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_battery.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_swirl.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_swirl.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_shader.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\row_shader.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fab_save.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fab_save.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_duplicate.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_duplicate.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_update.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_update.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_circles.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_delete.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_preview.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_orientation.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_orientation.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\menu_fragment_crop_image.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\menu\\fragment_crop_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_new_shader.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\new_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_insert_tab.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_insert_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_insert_code.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_insert_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fab_insert_code.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fab_insert_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_preset.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\row_preset.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_faq.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_faq.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_share.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fab_add_texture.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fab_add_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_duplicate.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_duplicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_crop_image.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\activity_crop_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_splash.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable\\background_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_touch.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_touch.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_backbuffer_parameters.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\widget_backbuffer_parameters.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_uniform_sampler_2d_page.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_uniform_sampler_2d_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_battery.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_battery.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_duplicate.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_camera_back.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_camera_back.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cube_map.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\activity_cube_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_orientation.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_orientation.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_circles.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_circles.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_sample.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\row_sample.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_ic_wallpaper_thumbnail.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\ic_wallpaper_thumbnail.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_item_selector.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable\\drawer_item_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_gles_300.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_gles_300.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_settings.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_crop_image.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_crop_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_game_of_life.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_game_of_life.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_texture.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\activity_view_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_subsequent.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\activity_subsequent.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_texture.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_texture.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_game_of_life.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_game_of_life.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_uniform_pages.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_uniform_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_default.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_default.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_fab_crop.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_fab_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_texture.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\row_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_default_shader.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\default_shader.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_progress_view.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\progress_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_gravity.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_gravity.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_gravity.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_gravity.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\raw_sample_touch.glsl.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\raw\\sample_touch.glsl"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_insert_tab.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_insert_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_redo.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_redo.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_new_shader.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_new_shader.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_undo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_undo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_faq.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_faq.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_texture_parameters.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_texture_parameters.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_list.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_list.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_list.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_add.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_rotate_clockwise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_rotate_clockwise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_rename_shader.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\dialog_rename_shader.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_run.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_run.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_uniform_preset_page.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_uniform_preset_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_add.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_add.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\menu_fragment_view_texture.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\menu\\fragment_view_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_texture_parameters.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\widget_texture_parameters.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_texture_noise.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\texture_noise.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_cloudy_conway.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_cloudy_conway.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\debug\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_duplicate.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_redo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_redo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_editor.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\xml_wallpaper.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\xml\\wallpaper.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_delete.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_delete.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_update.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_update.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_samples.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_samples.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_undo.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_undo.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_thumbnail_camera_back.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-nodpi\\thumbnail_camera_back.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_run.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_run.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_duplicate.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_backbuffer_parameters.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_backbuffer_parameters.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fab_insert_code.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fab_insert_code.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fab_save.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fab_save.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_logo.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\drawable-ldpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_drawer.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_fab_add_texture.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_fab_add_texture.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_fab_crop.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_fab_crop.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_preview.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_action_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sampler_properties.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_sampler_properties.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_view_texture.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\src\\main\\res\\layout\\fragment_view_texture.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_action_rotate_clockwise.xml.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_action_rotate_clockwise.xml"
+    },
+    {
+        "merged": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_duplicate.png.flat",
+        "source": "C:\\Users\\anton\\StudioProjects\\ShaderEditor\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_action_duplicate.png"
+    }
+]
